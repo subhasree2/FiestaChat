@@ -1,5 +1,6 @@
 import Image from "@/node_modules/next/image"
 import Head from "@/node_modules/next/head"
+import AuthForm from "./components/AuthForm"
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
                     <Image src="/logo.png" height={48} width={48} alt="Logo" />
                     <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Sign in to your account</h2>
                 </div>
+                <AuthForm />
             </div>
         </>
     )
